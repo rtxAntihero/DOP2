@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.article {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article-header h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.article-header h2 {
+    font-size: 18px;
+    color: #666;
+}
+
+.article-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.article-content p {
+    margin: 0 0 20px;
+}
+
+.article-content a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+.article-content a:hover {
+    text-decoration: underline;
+}
+.article-btn {
+  display: inline-block;
+    background: #858282;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.article-section h2 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.article-section ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.article-section li {
+    margin-bottom: 10px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .article {
+        padding: 10px;
+    }
+
+    .article-header h1 {
+        font-size: 24px;
+    }
+
+    .article-section h2 {
+        font-size: 20px;
+    }
+
+    .article-content {
+        font-size: 14px;
+    }
+}
+.card_item{
+    border-radius: 33px;
+    border: black solid 5px;
+    margin: 10px;
+    padding:10px;
+    min-width: 50px;
+    min-height: 50px;
+    background: linear-gradient(45deg,rgb(255, 255, 255),gray);
+    ьшт-width: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+}
